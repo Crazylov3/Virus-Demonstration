@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="542.0" prefWidth="816.0" styleClass="background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.mainmenu.ControllerHelp">
+    <children>
+        <Label alignment="TOP_CENTER" layoutX="302.0" layoutY="12.0" prefHeight="49.0" prefWidth="213.0" text="WELCOME" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold Italic" size="40.0" />
+            </font>
+        </Label>
+        <HBox alignment="TOP_RIGHT" layoutX="694.0" layoutY="5.0" prefHeight="26.0" prefWidth="114.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#minimize_stage" styleClass="min-btn" text="―" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="91.0" layoutY="10.0" mnemonicParsing="false" onAction="#close_app" styleClass="close-btn" text="✕" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+        </HBox>
+      <Label layoutX="13.0" layoutY="61.0" text="Purpose: Help users have more knowledge about&#10;viruses and how to prevent them" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="13.0" layoutY="118.0" prefHeight="418.0" prefWidth="485.0" text="Help: &#10;+To use this application:&#10;    First, in the main menu, you must choose type of viruses. There are two main type of viruses (have envelope or without envelope).&#10;    Then, you will choose (click) the specific virus to research.&#10;    After selecting the virus you want, the structure of the virus will appear first. On your left side, hovering the button &quot;&gt;&quot; brings up the navigation bar. You can choose to see the video demonstrate, animation of virus or back to the main menu.&#10;+To exit the application:&#10;    Click on the &quot;Exit&quot; button on the main menu or in the upper right corner then choose &quot;YES&quot;" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="506.0" layoutY="444.0" prefHeight="92.0" prefWidth="258.0" text="Contact:&#10;phu.nd194447@sis.hust.edu.vn&#10;giang.lt194430@sis.hust.edu.vn" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="17.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

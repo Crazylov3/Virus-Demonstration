@@ -1,0 +1,9 @@
+.button{
+    -fx-border-width:0;
+    -fx-background-color: purple;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+}
+.button:hover{
+    -fx-background-color: rgba(196, 0, 196, 0.55);
+}

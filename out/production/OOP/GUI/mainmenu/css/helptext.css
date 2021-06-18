@@ -1,0 +1,19 @@
+.mainWindow{
+width: 1000px;
+    height: 310px;
+    vertical-align: middle;
+    resize: none; 
+    overflow: auto; 
+    -ms-overflow-style: none; 
+    background-color: #B5B6B6;
+}
+.valueOutput{
+    position: absolute;
+    resize: none !important;
+    padding-left: 600px;
+}
+.labelOutput{
+    position: absolute;
+    resize: none !important;
+    padding-left: 250px;
+}
