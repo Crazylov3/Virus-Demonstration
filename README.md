@@ -1,4 +1,4 @@
-I take the design concept of the game Plague inc. Evolved.
+We take the design concept of the game Plague inc. Evolved.
 
 Link video: https://www.youtube.com/watch?v=PlshXDExFbA
 
